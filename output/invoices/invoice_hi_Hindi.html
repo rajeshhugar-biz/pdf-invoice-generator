@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8"/>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Kannada:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Tamil:wght@400;700&family=Noto+Sans+Telugu:wght@400;700&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Sans Devanagari', 'Mangal', Arial, sans-serif;
+    font-size: 11pt;
+    color: #222;
+    padding: 30px 40px;
+    background: #fff;
+  }
+  .page { max-width: 800px; margin: auto; }
+
+  /* Header */
+  .header { display: flex; justify-content: space-between; align-items: flex-start;
+             border-bottom: 3px solid #1a5276; padding-bottom: 14px; margin-bottom: 18px; }
+  .company-name { font-size: 18pt; font-weight: bold; color: #1a5276; }
+  .company-meta { font-size: 9pt; color: #555; margin-top: 4px; line-height: 1.6; }
+  .invoice-title { text-align: right; }
+  .invoice-title h1 { font-size: 22pt; color: #1a5276; letter-spacing: 1px; }
+  .invoice-title .inv-no { font-size: 10pt; color: #444; margin-top: 6px; }
+
+  /* Info boxes */
+  .info-row { display: flex; gap: 16px; margin-bottom: 18px; }
+  .info-box { flex: 1; border: 1px solid #d5d8dc; border-radius: 5px;
+               padding: 10px 14px; background: #f8f9fa; }
+  .info-box h3 { font-size: 9pt; text-transform: uppercase; color: #7f8c8d;
+                  letter-spacing: 0.5px; margin-bottom: 6px; border-bottom: 1px solid #eaecee;
+                  padding-bottom: 4px; }
+  .info-box p  { font-size: 10pt; line-height: 1.7; white-space: pre-line; }
+  .info-box .gstin { font-size: 9pt; color: #555; margin-top: 4px; }
+  .date-box { min-width: 180px; flex: 0 0 auto; }
+  .date-row { display: flex; justify-content: space-between; gap: 8px;
+               font-size: 10pt; padding: 3px 0; }
+  .date-row span:first-child { color: #7f8c8d; }
+  .date-row span:last-child  { font-weight: bold; }
+
+  /* Line items table */
+  table { width: 100%; border-collapse: collapse; margin-bottom: 0; }
+  thead th { background: #1a5276; color: #fff; padding: 8px 10px;
+              font-size: 9.5pt; text-align: left; }
+  thead th.right { text-align: right; }
+  tbody tr:nth-child(even) { background: #eaf0fb; }
+  tbody td { padding: 7px 10px; font-size: 10pt; border-bottom: 1px solid #e8e8e8; }
+  tbody td.right { text-align: right; font-family: 'Courier New', monospace; font-size: 10pt; }
+  tbody td.center { text-align: center; }
+
+  /* Totals */
+  .totals-wrap { display: flex; justify-content: flex-end; margin-top: 0; }
+  .totals { width: 320px; border: 1px solid #d5d8dc; border-top: none; }
+  .totals-row { display: flex; justify-content: space-between;
+                 padding: 6px 12px; font-size: 10pt; border-bottom: 1px solid #eee; }
+  .totals-row.grand { background: #1a5276; color: #fff; font-weight: bold;
+                       font-size: 11pt; border-bottom: none; }
+  .totals-row span:last-child { font-family: 'Courier New', monospace; }
+
+  /* Amount in words */
+  .words-box { margin-top: 14px; padding: 10px 14px; background: #eaf0fb;
+                border-left: 4px solid #1a5276; font-size: 10pt; }
+  .words-box strong { color: #1a5276; }
+
+  /* Bank + Terms */
+  .footer-row { display: flex; gap: 16px; margin-top: 16px; }
+  .bank-box { flex: 1; border: 1px solid #d5d8dc; border-radius: 5px; padding: 10px 14px; }
+  .bank-box h3 { font-size: 9pt; text-transform: uppercase; color: #7f8c8d;
+                  letter-spacing: 0.5px; margin-bottom: 6px; }
+  .bank-row { display: flex; gap: 8px; font-size: 10pt; padding: 2px 0; }
+  .bank-row span:first-child { color: #7f8c8d; min-width: 110px; }
+  .terms-box { flex: 1; border: 1px solid #d5d8dc; border-radius: 5px; padding: 10px 14px; }
+  .terms-box h3 { font-size: 9pt; text-transform: uppercase; color: #7f8c8d;
+                   letter-spacing: 0.5px; margin-bottom: 6px; }
+  .terms-box p { font-size: 9.5pt; color: #444; line-height: 1.6; }
+
+  /* Signature */
+  .signature { margin-top: 30px; text-align: right; padding-right: 20px; }
+  .sig-line { border-top: 1px solid #444; width: 200px; display: inline-block;
+               margin-bottom: 4px; }
+  .sig-label { font-size: 9.5pt; color: #555; }
+  .sig-company { font-size: 10pt; font-weight: bold; color: #1a5276; }
+
+  /* Footer stripe */
+  .page-footer { margin-top: 24px; border-top: 2px solid #1a5276; padding-top: 8px;
+                  text-align: center; font-size: 8.5pt; color: #7f8c8d; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ── Header ── -->
+  <div class="header">
+    <div>
+      <div class="company-name">Bharat Tech Solutions Pvt. Ltd.</div>
+      <div class="company-meta">Plot No. 42, MIDC Industrial Area,
+Pune, Maharashtra - 411028<br>
+        📞 +91 20 2567 8900 &nbsp;|&nbsp; ✉ billing@bharattech.in<br>
+        जीएसटीआईएन: 27AABFB1234C1ZX &nbsp;|&nbsp; पैन: AABFB1234C
+      </div>
+    </div>
+    <div class="invoice-title">
+      <h1>कर चालान</h1>
+      <div class="inv-no">चालान संख्या: <strong>INV-2025-1002</strong></div>
+    </div>
+  </div>
+
+  <!-- ── Bill To / Ship To / Dates ── -->
+  <div class="info-row">
+    <div class="info-box">
+      <h3>बिल प्राप्तकर्ता</h3>
+      <p><strong>राजेश कुमार एंड एसोसिएट्स</strong></p>
+      <p>12, एमजी रोड, बेंगलुरु
+कर्नाटक - 560001</p>
+      <p class="gstin">जीएसटीआईएन: 29AAAFR5678D1ZY</p>
+    </div>
+    <div class="info-box">
+      <h3>शिपिंग पता</h3>
+      <p><strong>राजेश कुमार एंड एसोसिएट्स</strong></p>
+      <p>12, एमजी रोड, बेंगलुरु
+कर्नाटक - 560001</p>
+    </div>
+    <div class="info-box date-box">
+      <h3>दिनांक</h3>
+      <div class="date-row"><span>दिनांक</span><span>18 May 2026</span></div>
+      <div class="date-row"><span>देय तिथि</span><span>18 Jun 2026</span></div>
+    </div>
+  </div>
+
+  <!-- ── Line items ── -->
+  <table>
+    <thead>
+      <tr>
+        <th style="width:32px">#</th>
+        <th>विवरण</th>
+        <th class="right" style="width:48px">मात्रा</th>
+        <th style="width:52px">इकाई</th>
+        <th class="right" style="width:110px">इकाई मूल्य (₹)</th>
+        <th class="right" style="width:110px">राशि (₹)</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="center">1</td>
+        <td>डेल लैपटॉप (कोर i7, 16GB रैम)</td>
+        <td class="right">2</td>
+        <td class="center">पीस</td>
+        <td class="right">75,000.00</td>
+        <td class="right">1,50,000.00</td>
+      </tr>
+      
+      <tr>
+        <td class="center">2</td>
+        <td>एचपी वायरलेस माउस</td>
+        <td class="right">5</td>
+        <td class="center">पीस</td>
+        <td class="right">1,200.00</td>
+        <td class="right">6,000.00</td>
+      </tr>
+      
+      <tr>
+        <td class="center">3</td>
+        <td>वार्षिक सॉफ्टवेयर रखरखाव</td>
+        <td class="right">1</td>
+        <td class="center">वर्ष</td>
+        <td class="right">25,000.00</td>
+        <td class="right">25,000.00</td>
+      </tr>
+      
+      <tr>
+        <td class="center">4</td>
+        <td>नेटवर्क स्विच 24-पोर्ट</td>
+        <td class="right">1</td>
+        <td class="center">पीस</td>
+        <td class="right">12,500.00</td>
+        <td class="right">12,500.00</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- ── Totals ── -->
+  <div class="totals-wrap">
+    <div class="totals">
+      <div class="totals-row">
+        <span>उप-योग</span><span>₹ 1,93,500.00</span>
+      </div>
+      <div class="totals-row">
+        <span>सीजीएसटी (9%)</span><span>₹ 17,415.00</span>
+      </div>
+      <div class="totals-row">
+        <span>एसजीएसटी (9%)</span><span>₹ 17,415.00</span>
+      </div>
+      <div class="totals-row grand">
+        <span>कुल राशि</span><span>₹ 2,28,330.00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Amount in words ── -->
+  <div class="words-box">
+    <strong>राशि शब्दों में:</strong> Rupees Two Lakh Twenty Eight Thousand Three Hundred Thirty Only
+  </div>
+
+  <!-- ── Bank + Terms ── -->
+  <div class="footer-row">
+    <div class="bank-box">
+      <h3>बैंक विवरण</h3>
+      <div class="bank-row"><span>बैंक का नाम:</span><span>State Bank of India</span></div>
+      <div class="bank-row"><span>खाता संख्या:</span><span>31245678901</span></div>
+      <div class="bank-row"><span>आईएफएससी कोड:</span><span>SBIN0001234</span></div>
+    </div>
+    <div class="terms-box">
+      <h3>नियम और शर्तें</h3>
+      <p>भुगतान 30 दिनों के भीतर देय है। बेचे गए माल वापस नहीं लिए जाएंगे।</p>
+    </div>
+  </div>
+
+  <!-- ── Signature ── -->
+  <div class="signature">
+    <div class="sig-line"></div><br>
+    <div class="sig-company">Bharat Tech Solutions Pvt. Ltd.</div>
+    <div class="sig-label">अधिकृत हस्ताक्षरकर्ता</div>
+  </div>
+
+  <!-- ── Page footer ── -->
+  <div class="page-footer">
+    Bharat Tech Solutions Pvt. Ltd. &nbsp;|&nbsp; 27AABFB1234C1ZX &nbsp;|&nbsp; billing@bharattech.in
+    &nbsp;|&nbsp; This is a computer-generated invoice.
+  </div>
+
+</div>
+</body>
+</html>

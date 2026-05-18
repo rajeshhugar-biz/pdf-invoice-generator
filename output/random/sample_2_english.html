@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Kannada:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Tamil:wght@400;700&family=Noto+Sans+Telugu:wght@400;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial, sans-serif;font-size:11pt;color:#222;padding:32px 40px;background:#fff}
+.page{max-width:800px;margin:auto}
+.header{display:flex;justify-content:space-between;align-items:flex-start;
+         border-bottom:3px solid #1a5276;padding-bottom:14px;margin-bottom:18px}
+.co-name{font-size:18pt;font-weight:bold;color:#1a5276}
+.co-meta{font-size:9pt;color:#555;margin-top:4px;line-height:1.7}
+.inv-title{text-align:right}.inv-title h1{font-size:22pt;color:#1a5276}
+.inv-title .badge{display:inline-block;background:#1a5276;color:#fff;font-size:8pt;
+                   padding:2px 8px;border-radius:3px;margin-bottom:4px}
+.inv-title .inv-no{font-size:10pt;color:#444;margin-top:4px}
+.info-row{display:flex;gap:14px;margin-bottom:18px}
+.info-box{flex:1;border:1px solid #d5d8dc;border-radius:4px;padding:10px 13px;background:#f8f9fa}
+.info-box h3{font-size:8.5pt;text-transform:uppercase;color:#7f8c8d;letter-spacing:.5px;
+              margin-bottom:5px;border-bottom:1px solid #eaecee;padding-bottom:3px}
+.info-box p{font-size:10pt;line-height:1.7;white-space:pre-line}
+.info-box .sub{font-size:9pt;color:#555;margin-top:3px}
+.date-box{min-width:175px;flex:0 0 auto}
+.drow{display:flex;justify-content:space-between;font-size:10pt;padding:3px 0}
+.drow span:first-child{color:#7f8c8d}.drow span:last-child{font-weight:bold}
+table{width:100%;border-collapse:collapse}
+thead th{background:#1a5276;color:#fff;padding:8px 9px;font-size:9pt;text-align:left}
+thead th.r{text-align:right}
+tbody tr:nth-child(even){background:#eaf0fb}
+tbody td{padding:7px 9px;font-size:10pt;border-bottom:1px solid #e8e8e8}
+tbody td.r{text-align:right;font-family:'Courier New',monospace}
+tbody td.c{text-align:center}
+.totals-wrap{display:flex;justify-content:flex-end}
+.totals{width:300px;border:1px solid #d5d8dc;border-top:none}
+.trow{display:flex;justify-content:space-between;padding:5px 11px;font-size:10pt;border-bottom:1px solid #eee}
+.trow.grand{background:#1a5276;color:#fff;font-weight:bold;font-size:11pt;border:none}
+.trow span:last-child{font-family:'Courier New',monospace}
+.words{margin-top:13px;padding:9px 13px;background:#eaf0fb;border-left:4px solid #1a5276;font-size:10pt}
+.words strong{color:#1a5276}
+.foot-row{display:flex;gap:14px;margin-top:15px}
+.bank-box,.terms-box{flex:1;border:1px solid #d5d8dc;border-radius:4px;padding:10px 13px}
+.bank-box h3,.terms-box h3{font-size:8.5pt;text-transform:uppercase;color:#7f8c8d;letter-spacing:.5px;margin-bottom:5px}
+.brow{display:flex;gap:8px;font-size:10pt;padding:2px 0}
+.brow span:first-child{color:#7f8c8d;min-width:105px}
+.terms-box p{font-size:9.5pt;color:#444;line-height:1.6}
+.sig{margin-top:28px;text-align:right;padding-right:18px}
+.sig-line{border-top:1px solid #444;width:190px;display:inline-block;margin-bottom:3px}
+.sig-co{font-size:10pt;font-weight:bold;color:#1a5276}.sig-lbl{font-size:9.5pt;color:#555}
+.pg-foot{margin-top:22px;border-top:2px solid #1a5276;padding-top:7px;
+          text-align:center;font-size:8.5pt;color:#7f8c8d}
+</style></head><body><div class="page">
+<div class="header">
+  <div>
+    <div class="co-name">Sunrise Electronics Corporation</div>
+    <div class="co-meta">15, Anna Salai,
+Chennai, Tamil Nadu - 600002<br>
+      +91 44 2345 6789 &nbsp;|&nbsp; accounts@sunriseelec.in<br>
+      GSTIN: 33AACSE5678B1ZP &nbsp;|&nbsp; PAN: AACSE5678B
+    </div>
+  </div>
+  <div class="inv-title">
+    <div class="badge">ORIGINAL</div>
+    <h1>TAX INVOICE</h1>
+    <div class="inv-no">Invoice No.: <strong>33/INV/202605/3892</strong></div>
+  </div>
+</div>
+<div class="info-row">
+  <div class="info-box">
+    <h3>Bill To</h3>
+    <p><strong>Sri Lakshmi Trading Co.</strong></p>
+    <p>7, Bazaar Street,
+Hyderabad, Telangana - 500002</p>
+    <p class="sub">GSTIN: 36AABSL6789F1ZQ</p>
+  </div>
+  <div class="info-box">
+    <h3>Ship To</h3>
+    <p><strong>Sri Lakshmi Trading Co.</strong></p>
+    <p>7, Bazaar Street,
+Hyderabad, Telangana - 500002</p>
+  </div>
+  <div class="info-box date-box">
+    <h3>Date</h3>
+    <div class="drow"><span>Date</span><span>29 Apr 2026</span></div>
+    <div class="drow"><span>Due Date</span><span>14 May 2026</span></div>
+  </div>
+</div>
+<table>
+  <thead><tr>
+    <th style="width:30px">#</th><th>Description</th>
+    <th style="width:60px">HSN</th>
+    <th class="r" style="width:44px">Qty</th>
+    <th style="width:46px">Unit</th>
+    <th class="r" style="width:100px">Unit Price (₹)</th>
+    <th class="r" style="width:100px">Amount (₹)</th>
+  </tr></thead>
+  <tbody>
+  
+    <tr><td class="c">1</td><td>Ergonomic High-Back Office Chair</td>
+    <td class="c">94013000</td>
+    <td class="r">6</td><td class="c">Pcs</td>
+    <td class="r">12,484.71</td>
+    <td class="r">74,908.26</td></tr>
+  
+    <tr><td class="c">2</td><td>APC UPS 1000VA Line Interactive</td>
+    <td class="c">85044010</td>
+    <td class="r">2</td><td class="c">Pcs</td>
+    <td class="r">6,502.21</td>
+    <td class="r">13,004.42</td></tr>
+  
+  </tbody>
+</table>
+<div class="totals-wrap"><div class="totals">
+  <div class="trow"><span>Subtotal</span><span>₹ 87,912.68</span></div>
+  
+  <div class="trow"><span>CGST (9%)</span><span>₹ 7,912.14</span></div>
+  <div class="trow"><span>SGST (9%)</span><span>₹ 7,912.14</span></div>
+  
+  <div class="trow grand"><span>Total</span><span>₹ 1,03,736.96</span></div>
+</div></div>
+<div class="words"><strong>Amount in Words:</strong> Rupees One Lakh Three Thousand Seven Hundred Thirty Six and Ninety Six Paise Only</div>
+<div class="foot-row">
+  <div class="bank-box"><h3>Bank Details</h3>
+    <div class="brow"><span>Bank Name:</span><span>HDFC Bank</span></div>
+    <div class="brow"><span>Account No.:</span><span>50200012345678</span></div>
+    <div class="brow"><span>IFSC Code:</span><span>HDFC0000234</span></div>
+  </div>
+  <div class="terms-box"><h3>Terms & Conditions</h3><p>Payment due within 30 days of invoice date. Goods once sold will not be taken back.</p></div>
+</div>
+<div class="sig">
+  <div class="sig-line"></div><br>
+  <div class="sig-co">Sunrise Electronics Corporation</div>
+  <div class="sig-lbl">Authorized Signatory</div>
+</div>
+<div class="pg-foot">Sunrise Electronics Corporation | 33AACSE5678B1ZP | accounts@sunriseelec.in | Computer generated invoice</div>
+</div></body></html>

@@ -1,0 +1,261 @@
+{
+  "en": [
+    {
+      "name": "Bharat Tech Solutions Pvt. Ltd.",
+      "address": "Plot No. 42, MIDC Industrial Area,\nPune, Maharashtra - 411028",
+      "gstin": "27AABFB1234C1ZX", "pan": "AABFB1234C",
+      "phone": "+91 20 2567 8900", "email": "billing@bharattech.in",
+      "bank_name": "State Bank of India", "account_no": "31245678901", "ifsc": "SBIN0001234"
+    },
+    {
+      "name": "Sunrise Electronics Corporation",
+      "address": "15, Anna Salai,\nChennai, Tamil Nadu - 600002",
+      "gstin": "33AACSE5678B1ZP", "pan": "AACSE5678B",
+      "phone": "+91 44 2345 6789", "email": "accounts@sunriseelec.in",
+      "bank_name": "HDFC Bank", "account_no": "50200012345678", "ifsc": "HDFC0000234"
+    },
+    {
+      "name": "National Business Enterprises",
+      "address": "8, Connaught Place,\nNew Delhi - 110001",
+      "gstin": "07AAAFN9012C1ZG", "pan": "AAAFN9012C",
+      "phone": "+91 11 2334 5566", "email": "info@natbiz.in",
+      "bank_name": "Punjab National Bank", "account_no": "1234567890", "ifsc": "PUNB0012345"
+    },
+    {
+      "name": "Apex Manufacturing Co. Pvt. Ltd.",
+      "address": "23, Park Street,\nKolkata, West Bengal - 700016",
+      "gstin": "19AABFA3456D1ZM", "pan": "AABFA3456D",
+      "phone": "+91 33 2281 7654", "email": "sales@apexmfg.in",
+      "bank_name": "Bank of Baroda", "account_no": "09870100012345", "ifsc": "BARB0PARKST"
+    },
+    {
+      "name": "Galaxy Infosystems Ltd.",
+      "address": "101, Cyberspace, Madhapur,\nHyderabad, Telangana - 500081",
+      "gstin": "36AABCG7890E1ZT", "pan": "AABCG7890E",
+      "phone": "+91 40 6789 0123", "email": "billing@galaxyinfo.in",
+      "bank_name": "Axis Bank", "account_no": "9230100012340", "ifsc": "UTIB0001234"
+    }
+  ],
+  "hi": [
+    {
+      "name": "भारत तकनीक समाधान प्राइवेट लिमिटेड",
+      "address": "प्लॉट नं. 42, एमआईडीसी औद्योगिक क्षेत्र,\nपुणे, महाराष्ट्र - 411028",
+      "gstin": "27AABFB1234C1ZX", "pan": "AABFB1234C",
+      "phone": "+91 20 2567 8900", "email": "billing@bharattech.in",
+      "bank_name": "State Bank of India", "account_no": "31245678901", "ifsc": "SBIN0001234"
+    },
+    {
+      "name": "सूर्योदय इलेक्ट्रॉनिक्स कॉर्पोरेशन",
+      "address": "15, अण्णा सलाई,\nचेन्नई, तमिलनाडु - 600002",
+      "gstin": "33AACSE5678B1ZP", "pan": "AACSE5678B",
+      "phone": "+91 44 2345 6789", "email": "accounts@sunriseelec.in",
+      "bank_name": "HDFC Bank", "account_no": "50200012345678", "ifsc": "HDFC0000234"
+    },
+    {
+      "name": "राष्ट्रीय व्यापार उद्यम",
+      "address": "8, कनॉट प्लेस,\nनई दिल्ली - 110001",
+      "gstin": "07AAAFN9012C1ZG", "pan": "AAAFN9012C",
+      "phone": "+91 11 2334 5566", "email": "info@natbiz.in",
+      "bank_name": "Punjab National Bank", "account_no": "1234567890", "ifsc": "PUNB0012345"
+    },
+    {
+      "name": "शिखर विनिर्माण कंपनी प्राइवेट लिमिटेड",
+      "address": "23, पार्क स्ट्रीट,\nकोलकाता, पश्चिम बंगाल - 700016",
+      "gstin": "19AABFA3456D1ZM", "pan": "AABFA3456D",
+      "phone": "+91 33 2281 7654", "email": "sales@shikharmfg.in",
+      "bank_name": "Bank of Baroda", "account_no": "09870100012345", "ifsc": "BARB0PARKST"
+    },
+    {
+      "name": "गैलेक्सी इन्फोसिस्टम्स लिमिटेड",
+      "address": "101, साइबरस्पेस, माधापुर,\nहैदराबाद, तेलंगाना - 500081",
+      "gstin": "36AABCG7890E1ZT", "pan": "AABCG7890E",
+      "phone": "+91 40 6789 0123", "email": "billing@galaxyinfo.in",
+      "bank_name": "Axis Bank", "account_no": "9230100012340", "ifsc": "UTIB0001234"
+    }
+  ],
+  "mr": [
+    {
+      "name": "भारत तंत्रज्ञान उपाय प्रायव्हेट लिमिटेड",
+      "address": "प्लॉट क्र. 42, एमआयडीसी औद्योगिक क्षेत्र,\nपुणे, महाराष्ट्र - 411028",
+      "gstin": "27AABFB1234C1ZX", "pan": "AABFB1234C",
+      "phone": "+91 20 2567 8900", "email": "billing@bharattech.in",
+      "bank_name": "State Bank of India", "account_no": "31245678901", "ifsc": "SBIN0001234"
+    },
+    {
+      "name": "सूर्योदय इलेक्ट्रॉनिक्स कॉर्पोरेशन",
+      "address": "15, अण्णा सलाई,\nचेन्नई, तामिळनाडू - 600002",
+      "gstin": "33AACSE5678B1ZP", "pan": "AACSE5678B",
+      "phone": "+91 44 2345 6789", "email": "accounts@sunriseelec.in",
+      "bank_name": "HDFC Bank", "account_no": "50200012345678", "ifsc": "HDFC0000234"
+    },
+    {
+      "name": "राष्ट्रीय व्यापार उद्योग",
+      "address": "8, कनॉट प्लेस,\nनवी दिल्ली - 110001",
+      "gstin": "07AAAFN9012C1ZG", "pan": "AAAFN9012C",
+      "phone": "+91 11 2334 5566", "email": "info@natbiz.in",
+      "bank_name": "Punjab National Bank", "account_no": "1234567890", "ifsc": "PUNB0012345"
+    },
+    {
+      "name": "शिखर उत्पादन कंपनी प्रायव्हेट लिमिटेड",
+      "address": "23, पार्क स्ट्रीट,\nकोलकाता, पश्चिम बंगाल - 700016",
+      "gstin": "19AABFA3456D1ZM", "pan": "AABFA3456D",
+      "phone": "+91 33 2281 7654", "email": "sales@shikharmfg.in",
+      "bank_name": "Bank of Baroda", "account_no": "09870100012345", "ifsc": "BARB0PARKST"
+    },
+    {
+      "name": "गॅलेक्सी इन्फोसिस्टम्स लिमिटेड",
+      "address": "101, सायबरस्पेस, माधापूर,\nहैदराबाद, तेलंगणा - 500081",
+      "gstin": "36AABCG7890E1ZT", "pan": "AABCG7890E",
+      "phone": "+91 40 6789 0123", "email": "billing@galaxyinfo.in",
+      "bank_name": "Axis Bank", "account_no": "9230100012340", "ifsc": "UTIB0001234"
+    }
+  ],
+  "kn": [
+    {
+      "name": "ಭಾರತ ತಂತ್ರಜ್ಞಾನ ಪರಿಹಾರಗಳು ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "address": "ಪ್ಲಾಟ್ ನಂ. 42, ಎಂಐಡಿಸಿ ಕೈಗಾರಿಕಾ ಪ್ರದೇಶ,\nಪುಣೆ, ಮಹಾರಾಷ್ಟ್ರ - 411028",
+      "gstin": "27AABFB1234C1ZX", "pan": "AABFB1234C",
+      "phone": "+91 20 2567 8900", "email": "billing@bharattech.in",
+      "bank_name": "State Bank of India", "account_no": "31245678901", "ifsc": "SBIN0001234"
+    },
+    {
+      "name": "ಸೂರ್ಯೋದಯ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಕಾರ್ಪೊರೇಷನ್",
+      "address": "15, ಅಣ್ಣಾ ಸಲೈ,\nಚೆನ್ನೈ, ತಮಿಳುನಾಡು - 600002",
+      "gstin": "33AACSE5678B1ZP", "pan": "AACSE5678B",
+      "phone": "+91 44 2345 6789", "email": "accounts@sunriseelec.in",
+      "bank_name": "HDFC Bank", "account_no": "50200012345678", "ifsc": "HDFC0000234"
+    },
+    {
+      "name": "ರಾಷ್ಟ್ರೀಯ ವ್ಯಾಪಾರ ಉದ್ಯಮ",
+      "address": "8, ಕನ್ನಾಟ್ ಪ್ಲೇಸ್,\nನವ ದೆಹಲಿ - 110001",
+      "gstin": "07AAAFN9012C1ZG", "pan": "AAAFN9012C",
+      "phone": "+91 11 2334 5566", "email": "info@natbiz.in",
+      "bank_name": "Punjab National Bank", "account_no": "1234567890", "ifsc": "PUNB0012345"
+    },
+    {
+      "name": "ಶಿಖರ ಉತ್ಪಾದನಾ ಕಂಪನಿ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "address": "23, ಪಾರ್ಕ್ ಸ್ಟ್ರೀಟ್,\nಕೋಲ್ಕತಾ, ಪಶ್ಚಿಮ ಬಂಗಾಳ - 700016",
+      "gstin": "19AABFA3456D1ZM", "pan": "AABFA3456D",
+      "phone": "+91 33 2281 7654", "email": "sales@shikharmfg.in",
+      "bank_name": "Bank of Baroda", "account_no": "09870100012345", "ifsc": "BARB0PARKST"
+    },
+    {
+      "name": "ಗ್ಯಾಲಕ್ಸಿ ಇನ್ಫೋಸಿಸ್ಟಮ್ಸ್ ಲಿಮಿಟೆಡ್",
+      "address": "101, ಸೈಬರ್‌ಸ್ಪೇಸ್, ಮಾಧಾಪುರ,\nಹೈದರಾಬಾದ್, ತೆಲಂಗಾಣ - 500081",
+      "gstin": "36AABCG7890E1ZT", "pan": "AABCG7890E",
+      "phone": "+91 40 6789 0123", "email": "billing@galaxyinfo.in",
+      "bank_name": "Axis Bank", "account_no": "9230100012340", "ifsc": "UTIB0001234"
+    }
+  ],
+  "bn": [
+    {
+      "name": "ভারত প্রযুক্তি সমাধান প্রাইভেট লিমিটেড",
+      "address": "প্লট নং. 42, এমআইডিসি শিল্প এলাকা,\nপুণে, মহারাষ্ট্র - 411028",
+      "gstin": "27AABFB1234C1ZX", "pan": "AABFB1234C",
+      "phone": "+91 20 2567 8900", "email": "billing@bharattech.in",
+      "bank_name": "State Bank of India", "account_no": "31245678901", "ifsc": "SBIN0001234"
+    },
+    {
+      "name": "সূর্যোদয় ইলেকট্রনিক্স কর্পোরেশন",
+      "address": "15, আন্না সালাই,\nচেন্নাই, তামিলনাড়ু - 600002",
+      "gstin": "33AACSE5678B1ZP", "pan": "AACSE5678B",
+      "phone": "+91 44 2345 6789", "email": "accounts@sunriseelec.in",
+      "bank_name": "HDFC Bank", "account_no": "50200012345678", "ifsc": "HDFC0000234"
+    },
+    {
+      "name": "জাতীয় ব্যবসায়িক উদ্যোগ",
+      "address": "8, কনট প্লেস,\nনতুন দিল্লি - 110001",
+      "gstin": "07AAAFN9012C1ZG", "pan": "AAAFN9012C",
+      "phone": "+91 11 2334 5566", "email": "info@natbiz.in",
+      "bank_name": "Punjab National Bank", "account_no": "1234567890", "ifsc": "PUNB0012345"
+    },
+    {
+      "name": "শিখর উৎপাদন কোম্পানি প্রাইভেট লিমিটেড",
+      "address": "23, পার্ক স্ট্রিট,\nকলকাতা, পশ্চিমবঙ্গ - 700016",
+      "gstin": "19AABFA3456D1ZM", "pan": "AABFA3456D",
+      "phone": "+91 33 2281 7654", "email": "sales@shikharmfg.in",
+      "bank_name": "Bank of Baroda", "account_no": "09870100012345", "ifsc": "BARB0PARKST"
+    },
+    {
+      "name": "গ্যালাক্সি ইনফোসিস্টেমস লিমিটেড",
+      "address": "101, সাইবারস্পেস, মাধাপুর,\nহায়দরাবাদ, তেলেঙ্গানা - 500081",
+      "gstin": "36AABCG7890E1ZT", "pan": "AABCG7890E",
+      "phone": "+91 40 6789 0123", "email": "billing@galaxyinfo.in",
+      "bank_name": "Axis Bank", "account_no": "9230100012340", "ifsc": "UTIB0001234"
+    }
+  ],
+  "ta": [
+    {
+      "name": "பாரத் தொழில்நுட்ப தீர்வுகள் பிரைவேட் லிமிடெட்",
+      "address": "பிளாட் எண். 42, MIDC தொழில் பகுதி,\nபுணே, மகாராஷ்டிரா - 411028",
+      "gstin": "27AABFB1234C1ZX", "pan": "AABFB1234C",
+      "phone": "+91 20 2567 8900", "email": "billing@bharattech.in",
+      "bank_name": "State Bank of India", "account_no": "31245678901", "ifsc": "SBIN0001234"
+    },
+    {
+      "name": "சூரியோதயம் எலக்ட்ரானிக்ஸ் கார்பரேஷன்",
+      "address": "15, அண்ணா சலை,\nசென்னை, தமிழ்நாடு - 600002",
+      "gstin": "33AACSE5678B1ZP", "pan": "AACSE5678B",
+      "phone": "+91 44 2345 6789", "email": "accounts@sunriseelec.in",
+      "bank_name": "HDFC Bank", "account_no": "50200012345678", "ifsc": "HDFC0000234"
+    },
+    {
+      "name": "தேசிய வணிக நிறுவனம்",
+      "address": "8, கனாட் பிளேஸ்,\nபுது தில்லி - 110001",
+      "gstin": "07AAAFN9012C1ZG", "pan": "AAAFN9012C",
+      "phone": "+91 11 2334 5566", "email": "info@natbiz.in",
+      "bank_name": "Punjab National Bank", "account_no": "1234567890", "ifsc": "PUNB0012345"
+    },
+    {
+      "name": "சிகரம் உற்பத்தி நிறுவனம் பிரைவேட் லிமிடெட்",
+      "address": "23, பார்க் ஸ்ட்ரீட்,\nகொல்கத்தா, மேற்கு வங்காளம் - 700016",
+      "gstin": "19AABFA3456D1ZM", "pan": "AABFA3456D",
+      "phone": "+91 33 2281 7654", "email": "sales@shikharmfg.in",
+      "bank_name": "Bank of Baroda", "account_no": "09870100012345", "ifsc": "BARB0PARKST"
+    },
+    {
+      "name": "கேலக்ஸி இன்போசிஸ்டம்ஸ் லிமிடெட்",
+      "address": "101, சைபர்ஸ்பேஸ், மாதாபூர்,\nஹைதராபாத், தெலங்கானா - 500081",
+      "gstin": "36AABCG7890E1ZT", "pan": "AABCG7890E",
+      "phone": "+91 40 6789 0123", "email": "billing@galaxyinfo.in",
+      "bank_name": "Axis Bank", "account_no": "9230100012340", "ifsc": "UTIB0001234"
+    }
+  ],
+  "te": [
+    {
+      "name": "భారత్ టెక్నాలజీ సొల్యూషన్స్ ప్రైవేట్ లిమిటెడ్",
+      "address": "ప్లాట్ నం. 42, MIDC పారిశ్రామిక ప్రాంతం,\nపుణే, మహారాష్ట్ర - 411028",
+      "gstin": "27AABFB1234C1ZX", "pan": "AABFB1234C",
+      "phone": "+91 20 2567 8900", "email": "billing@bharattech.in",
+      "bank_name": "State Bank of India", "account_no": "31245678901", "ifsc": "SBIN0001234"
+    },
+    {
+      "name": "సూర్యోదయ ఎలక్ట్రానిక్స్ కార్పొరేషన్",
+      "address": "15, అణ్ణా సలై,\nచెన్నై, తమిళనాడు - 600002",
+      "gstin": "33AACSE5678B1ZP", "pan": "AACSE5678B",
+      "phone": "+91 44 2345 6789", "email": "accounts@sunriseelec.in",
+      "bank_name": "HDFC Bank", "account_no": "50200012345678", "ifsc": "HDFC0000234"
+    },
+    {
+      "name": "జాతీయ వ్యాపార సంస్థ",
+      "address": "8, కనాట్ ప్లేస్,\nన్యూ ఢిల్లీ - 110001",
+      "gstin": "07AAAFN9012C1ZG", "pan": "AAAFN9012C",
+      "phone": "+91 11 2334 5566", "email": "info@natbiz.in",
+      "bank_name": "Punjab National Bank", "account_no": "1234567890", "ifsc": "PUNB0012345"
+    },
+    {
+      "name": "శిఖర్ తయారీ కంపెనీ ప్రైవేట్ లిమిటెడ్",
+      "address": "23, పార్క్ స్ట్రీట్,\nకోల్‌కతా, పశ్చిమ బెంగాల్ - 700016",
+      "gstin": "19AABFA3456D1ZM", "pan": "AABFA3456D",
+      "phone": "+91 33 2281 7654", "email": "sales@shikharmfg.in",
+      "bank_name": "Bank of Baroda", "account_no": "09870100012345", "ifsc": "BARB0PARKST"
+    },
+    {
+      "name": "గ్యాలక్సీ ఇన్ఫోసిస్టమ్స్ లిమిటెడ్",
+      "address": "101, సైబర్‌స్పేస్, మాధాపూర్,\nహైదరాబాద్, తెలంగాణ - 500081",
+      "gstin": "36AABCG7890E1ZT", "pan": "AABCG7890E",
+      "phone": "+91 40 6789 0123", "email": "billing@galaxyinfo.in",
+      "bank_name": "Axis Bank", "account_no": "9230100012340", "ifsc": "UTIB0001234"
+    }
+  ]
+}

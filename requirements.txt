@@ -1,0 +1,3 @@
+jinja2
+weasyprint
+pydyf==0.12.1
