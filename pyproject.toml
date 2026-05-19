@@ -1,7 +1,13 @@
 [project]
 name = "invoice-generator"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multilingual GST-compliant invoice generator for 7 Indian languages across 5 visual templates"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.12"
+license = { text = "MIT" }
+keywords = ["invoice", "gst", "india", "pdf", "multilingual"]
+dependencies = [
+    "jinja2",
+    "weasyprint",
+    "pydyf==0.12.1",
+]
